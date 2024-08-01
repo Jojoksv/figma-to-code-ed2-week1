@@ -1,0 +1,23 @@
+.div-container{
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    width: 83.4vw;
+    border-top: 1px solid var(--neutral-50);
+}
+.footer-wripper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 11px;
+}
+.footer-wripper h1{
+    font-size: 1.405em;
+    letter-spacing: .3px;
+}
+.legal-terms{
+    font-size: .84em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
