@@ -1,0 +1,104 @@
+@media screen and (max-width: 1297px){
+    .nfc-head,.nfc-kong{
+        height: 25rem;
+        width: 16rem;
+    }
+    .nfc-head{
+        left: 2rem;
+    }
+}
+@media screen and (max-width: 1236px){
+    .hero-section{
+        padding-bottom: 25vh;
+    }
+    .see-the-nft{
+        font-size: 6.5rem;
+    }
+    .hero-section-inner{
+        width: 34rem;
+        height: 34rem;
+    }
+    .nfc-head,.nfc-kong{
+        height: 23rem;
+        width: 15rem;
+    }
+    .nfc-head{
+        left: 3rem;
+    }
+}
+@media screen and (max-width: 1175px){
+    .see-the-nft{
+        font-size: 6rem;
+    }
+    .hero-section-inner{
+        width: 32rem;
+        height: 32rem;
+    }
+    .nfc-head,.nfc-kong{
+        height: 21rem;
+        width: 13.5rem;
+    }
+}
+@media screen and (max-width: 1080px){
+    .hero-section{
+        padding-bottom: 20vh;
+    }
+    .see-the-nft{
+        font-size: 5.8rem;
+    }
+    .hero-section-inner{
+        width: 28rem;
+        height: 32rem;
+    }
+    .nfc-head,.nfc-kong{
+        height: 19rem;
+        width: 12rem;
+    }
+    .nfc-kong{
+        top: 15%;
+    }
+    .vorem-ipsum-dolor-sit-amet-co p{
+        font-size: .90em;
+        width: 40vw;
+    }
+}
+@media screen and (max-width: 1000px){
+    .hero-section{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+    }
+    .hero-section-inner{
+        position: relative;
+        width: 38.4rem;
+        height: 34.763rem;
+        right: 0.7rem;
+    }
+    .nfc-head{
+        height: 26.25rem;
+        width: 17.1rem;
+        bottom: 0;
+    }
+    .nfc-kong{
+        height: 26.25rem;
+        width: 17.1rem;
+        top: 0;
+    }
+    .vorem-ipsum-dolor-sit-amet-co p{
+        font-size: .90em;
+        width: 43vw;
+    }
+    .see-the-nft-new-world{
+        margin: 8.4vh 0 0 0;
+    }
+     .see-the-nft{
+        font-size: 5.7rem;
+    }
+    .collections-cards{
+        padding: var(--padding-3xs) .6rem var(--padding-3xs) 2.55rem;
+        font-size: var(--raleway-semibold-base-size);
+    }
+    .frame-parent1 {
+        padding: 0 .5rem 0 2.55rem;
+      }
+}

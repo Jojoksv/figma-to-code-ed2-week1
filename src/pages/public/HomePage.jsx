@@ -1,4 +1,5 @@
 import '../../styles/HomePage.css'
+import '../../styles/HomePagesMedia.css'
 import Category from '../../components/common/Category'
 import Card from '../../components/common/Card'
 import cyberPunk from '../../assets/images/rectangle-3@2x.png'
