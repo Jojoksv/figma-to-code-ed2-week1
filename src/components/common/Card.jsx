@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import ethereum from '../../assets/images/ethereumellipse.svg'
 
 const Card = ({ imgSrc, title, price }) => (
     <div className="card">
@@ -6,7 +7,7 @@ const Card = ({ imgSrc, title, price }) => (
         <div className="card-content">
             <b className="card-title">{title}</b>
             <div className="card-price-wrapper">
-                <img className="ethereum-icon" alt="" src="./public/ethereumellipse.svg" />
+                <img className="ethereum-icon" alt="" src={ethereum} />
                 <b className="card-price">{price}</b>
             </div>
         </div>

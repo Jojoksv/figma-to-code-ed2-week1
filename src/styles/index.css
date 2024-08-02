@@ -54,7 +54,7 @@ body {
     --white: #fff;
   
     /* Gaps */
-    --gap-17xl: 2.25rem;
+    --gap-17xl: 2.02rem;
     --gap-5xl: 1.5rem;
     --gap-3xs: 0.625rem;
     --gap-base: 1rem;
@@ -68,9 +68,9 @@ body {
   
     /* Border radiuses */
     --br-5xl: 24px;
-    --br-5xs: 8px;
+    --br-5xs: 7px;
     --br-23xl: 42px;
-    --br-xl: 20px;
+    --br-xl: 18px;
     --br-xs: 12px;
 }
 

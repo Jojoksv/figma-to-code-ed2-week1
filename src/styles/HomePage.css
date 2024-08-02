@@ -122,39 +122,75 @@
     font-weight: 600;
     color: var(--neutral-500);
   }
-  
-  .collections-cards {
+  .category-wrapper{
     display: flex;
-    /* flex-direction: row; */
-    flex-wrap: wrap;
+    align-items: center;
+    font-family: bold-raleway;
+  }
+  .category-name{
+    color: #000;
+    background-color: var(--neutral-50);
+    padding: 0.765rem 1.65rem;
+    border-radius: 10px;
+    font-size: .85em;
+  }
+  .active{
+    color: #fff;
+    background-color: var(--neutral-900);
+    padding: 0.765rem 1.85rem;
+  }
+  .collections-cards{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: var(--padding-3xs) 0;
-    width: 83.5vw;
-    /* gap: var(--gap-5xl); */
     font-size: var(--raleway-semibold-base-size);
+    width: 83.5vw;
+    flex-wrap: wrap;
+    gap: 1rem;
   }
   
   .card {
-    width: 19.65vw;
+    width: 267px;
     border-radius: var(--br-xl);
     border: 1px solid var(--neutral-100);
     box-sizing: border-box;
     height: 20.26rem;
-    flex-direction: column;
-    justify-content: flex-start;
     padding: var(--padding-xs);
-    gap: var(--gap-base);
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
   }
-  
+.card-title{
+    font-size: .95em;
+}
   .card-child {
     border-radius: var(--br-xl);
     object-fit: cover;
   }
+.card-price{
+  font-size: 1.05em;
+}
+  .card-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: bold-raleway;
+  }
+
+  .card-price-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+  .card-price-wrapper img{
+    width: 1.45rem;
+  }
   
-  .place-a-bid-wrapper {
+  .place-bid-wrapper {
     align-self: stretch;
     border-radius: var(--br-xs);
     border: 1px solid var(--neutral-800);
@@ -163,5 +199,73 @@
     padding: var(--padding-3xs) var(--padding-7xl);
     display: flex;
     align-items: center;
+    font-size: .95em;
+  }
+
+
+  /* zefnnknkerdsnknazdnrjedsnjk nsqnjn ek;jzds */
+  .createsell-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-17xl);
+    color: var(--neutral-800);
+  }
+  
+  .our-collections {
+    position: relative;
+    line-height: 2.25rem;
+  }
+  
+  .frame-parent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-base);
+    font-size: var(--raleway-bold-xl-size);
+    justify-content: space-between;
+    width: 83.4vw;
+    flex-wrap: wrap;
+  }
+  
+  .frame-parent2 {
+    width: 16.73rem;
+    border-radius: var(--br-5xl);
+    background-color: var(--neutral-50);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.6rem 1.4rem;
+    box-sizing: border-box;
+    height: 13.35rem;
+    justify-content: space-between;
+  }
+  
+  .wallet-02-wrapper {
+    border-radius: var(--br-5xs);
+    background-color: var(--neutral-600);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: .55rem;
+  }
+  
+  .wallet-02-icon {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+  
+  .b {
+    font-family: bold-raleway;
+    font-size: .95em;
+  }
+  
+  .lorem-ipsum-dolor {
+    font-size: var(--raleway-medium-sm-size);
+    line-height: 1.2rem;
+    font-size: .66em;
+    color: var(--neutral-300);
+    margin-bottom: -.25rem;
   }
   

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Category = ({ name }) => (
     <div className="category-wrapper">
-        <div className="category-name">{name}</div>
+        <div to="#" className={`${name === "All categories" ? "active" : null} category-name`}>{name}</div>
     </div>
 );
 

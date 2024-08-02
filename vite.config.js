@@ -16,3 +16,15 @@ export default defineConfig({
     },
   },
 })
+
+
+// server: {
+//   port: 5174,
+//   proxy: {
+//     "^/(api|dev|cap|ope)": {
+//       target: "http://localhost:8000",
+//       changeOrigin: true,
+//       rewrite: (path) => path.replace(/^\/(api|dev|cap|ope)/, "/"),
+//     },
+//   },
+// }
