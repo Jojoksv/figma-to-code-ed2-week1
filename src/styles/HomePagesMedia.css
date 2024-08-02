@@ -102,3 +102,16 @@
         padding: 0 .5rem 0 2.55rem;
       }
 }
+@media screen and (max-width: 1175px){
+    .home-page{
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .hero-section{
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .hero-section-inner{
+        overflow-x: scroll;
+    }
+}
